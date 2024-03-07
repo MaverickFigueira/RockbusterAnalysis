@@ -1,0 +1,11 @@
+SELECT MODE () WITHIN GROUP (ORDER BY customer_id) AS customer_id_modular_value,
+MODE () WITHIN GROUP (ORDER BY store_id) AS store_id_modular_value, 
+MODE () WITHIN GROUP (ORDER BY first_name) AS first_name_modular_value,
+MODE () WITHIN GROUP (ORDER BY last_name) AS last_name_modular_value,
+MODE () WITHIN GROUP (ORDER BY email) AS email_modular_value,
+MODE () WITHIN GROUP (ORDER BY address_id) AS address_id_modular_value,
+MODE () WITHIN GROUP (ORDER BY activebool) AS activebool_modular_value,
+MODE () WITHIN GROUP (ORDER BY create_date) AS create_date_modular_value,
+MODE () WITHIN GROUP (ORDER BY last_update) AS last_update_modular_value,
+MODE () WITHIN GROUP (ORDER BY active) AS active_modular_value 
+FROM customer;
