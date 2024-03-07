@@ -12,3 +12,4 @@ Introduction - I have been hired as a data analyst to utilize SQL to find patter
 This project demonstrates the capabilities of SQL due to the in-depth analysis it is capable of. It is shown that it uses various queries to compare and contrast different sale categories, customers, and geographical locations to provide Ropckbuster with the most information and ensure its best chance at a successful launch in the online streaming market.  
 ## Data Set 
 The data set contains Rockbvuster's current film licenses, sales, customers, store locations, and employees, which are loaded into the SQL database. 
+[Rockbuster Data Set](docs/Rockbuster Scripts and  Data.xlsx)
